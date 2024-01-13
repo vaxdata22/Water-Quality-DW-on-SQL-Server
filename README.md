@@ -32,4 +32,9 @@ The following are information desired to be gotten from the dataset:
 * Here is the [Jupyter Notebook](https://github.com/vaxdata22/Water-Quality-DW-on-SQL-Server/blob/main/Python%20Environment%20To%20Demonstrate%20DW%20%26%20ETL%20on%20MSSQL.ipynb) for the Python environment that was used to carry out data cleaning, and ETL
 * For reference purposes, here are all the [T-SQL scripts and codes](https://github.com/vaxdata22/Water-Quality-DW-on-SQL-Server/tree/main/T-SQL%20scripts) that were used throughout the project.
 
+## PS
+
+* For code comparison sake, here is the [Oracle SQL equivalent](https://github.com/vaxdata22/Water-Quality-DW-on-SQL-Server/blob/main/Corresponding%20Code%20To%20Illustrate%20ETL%20on%20Oracle%20DW.ipynb) of the Jupyter Notebook mentioned above.
+* If you need to see exactly how I implemented it in Oracle DW, see [this](https://github.com/vaxdata22/Water-Quality-DW-on-Oracle-Database) repository.
+
 Enjoy!
