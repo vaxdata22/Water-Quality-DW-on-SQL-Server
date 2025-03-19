@@ -1,5 +1,5 @@
 # Water-Quality-DW-on-SQL-Server
-This is an MSSQL Data Warehouse and ETL implementation on specially formatted Water Quality dataset from DEFRA, UK. It is a personal academic-grade exercise to explore the basic concepts of data warehousing and manual ETL process from an academic perspective.
+This is an MSSQL Data Warehouse and ETL implementation on a specially formatted Water Quality dataset from DEFRA, UK. It is a personal academic-grade exercise to explore the basic concepts of data warehousing and manual ETL process from an academic perspective.
 
 
 ## Introduction:
