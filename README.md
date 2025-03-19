@@ -1,11 +1,11 @@
 # Water-Quality-DW-on-SQL-Server
-This is an MSSQL Data Warehouse and ETL implementation on specially formatted Water Quality dataset from DEFRA, UK
+This is an MSSQL Data Warehouse and ETL implementation on specially formatted Water Quality dataset from DEFRA, UK. It is a personal academic-grade exercise to explore the basic concepts of data warehousing and manual ETL process from an academic perspective.
 
 
 ## Introduction:
 A data warehouse is a central repository of information that can be analyzed to make more informed decisions. Data flows into a data warehouse from transactional systems, relational databases, and other sources, typically on a regular cadence (https://aws.amazon.com/what-is/data-warehouse).
 
-This repository is about a data warehouse project that was carried out using ETL (extract, transform, and load) process on a [specially formatted WaterQuality dataset](https://github.com/vaxdata22/Water-Quality-DW-on-SQL-Server/blob/main/WaterQuality.accdb) from The Department for Environment Food & Rural Affairs (DEFRA), UK. This particular dataset is provided in an MS Access (.accdb) file. It contains 17 tables, and each would have to be exported into individual CSV files.
+This repository is about a data warehouse project that was carried out using manually triggered ETL (extract, transform, and load) process on a [specially formatted WaterQuality dataset](https://github.com/vaxdata22/Water-Quality-DW-on-SQL-Server/blob/main/WaterQuality.accdb) from The Department for Environment Food & Rural Affairs (DEFRA), UK. This particular dataset is provided in an MS Access (.accdb) file. It contains 17 tables, and each would have to be exported into individual CSV files.
 
 The data warehouse consists of a staging table, nine (9) dimension tables, and one fact table. Among the dimension tables is an extended Time table to aid time-based BI analysis. The data warehouse was created in a Microsoft SQL Server 2019 database environment with the source dataset exported into CSV files, and then imported into corresponding tables in the database using SQL Server Management Studio (SSMS) Import wizard; while the main ETL process was done in a Jupyter Notebook (Python environment) which was connected to the data warehouse in the MSSQL database through pyodbc Python cursor connection.
 
